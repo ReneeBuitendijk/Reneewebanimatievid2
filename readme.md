@@ -1,3 +1,5 @@
+Minor Visual Interface Design - Web Animatie - Renée Buitendijk - VID2
+
 De opdracht:
 
 De opdracht voor Web Animatie bestaat uit het vertalen van een statisch kunstwerk naar een interactieve, geanimeerde webversie. 
