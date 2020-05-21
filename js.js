@@ -47,7 +47,6 @@ var donkert =document.getElementById('Zeewier_donker_groen');
 var appel = document.getElementById('Granaatappels');
 var roz =document.getElementById('Zeewier_roze');
 
-
 window.addEventListener('keydown', toggle)
 
 function toggle(event) {
