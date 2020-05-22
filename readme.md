@@ -25,7 +25,16 @@ Wat ik zo mooi vind aan dit werk is de persoonlijke interpretatie die mogelijk i
 Ik heb erg genoten van het werken met dit kunstwerk tijdens deze opdracht!
 
 Werkwijze:
-Nadat de keuze van dit kunstwerk goed gekeurd was ben ik gelijk aan de slag gegaan met het illustreren van het werk. Door alle verschillende vormen was dit flink wat werk. Ik heb alle vormen zelf ge
+Nadat de keuze van dit kunstwerk goed gekeurd was ben ik gelijk aan de slag gegaan met het illustreren. Door alle verschillende vormen was dit flink wat werk. Ik heb alle vormen zelf geillustreerd in Illustrator en in verschillende lagen opgeslagen. Door de hoeveelheid vormen heb ik ervoor gekozen om alle granaatappels, blauwe-, roze-, groene-, gele- en oranje blaadjes per groep op te slaan en niet alle vormen apart. Voor het animeren zou dit betekenen dat de functies per kleur of vorm zouden gelden en niet voor elke vorm individueel. Het bestand heb ik opgeslagen als SVG die ik vervolgens in de html pagina kon plaatsen. 
+
+De eerste stappen die ik heb genomen bestonden uit het schetsen en bedenken van verschillende functies, het schalen van het werk in de desktop versie en uiteraard het begrijpen van de codes. Dankzij Sander, Youtube en veel artikelen snap ik nu redelijk wat van het coderen. Het opstarten en leren heeft me redelijk wat tijd gekost maar na een paar dagen had ik de smaak te pakken en ging ik goed aan de slag. 
+Hetgeen wat ik wil uitstralen en bereiken met de web animatie van dit kunstwerk is het plezier en het belang van kleur. De kleuren die Matisse heeft gebruikt stralen op mij iets ongelofelijk vrolijks doch rustgevigs uit. Dat gevoel van geluk wil ik ook meebrengen aan de 'gebruiker/ bezoeker'. Om dit te bereiken wil ik dat de bezoeker over de verschillende vormen kan hoveren wat een kleur verandering in actie brengt. De korte duur van de hover is als een soort verrassings moment, een kiekeboe, er zitten nog meer kleuren verstopt. 
+Ik wilde bij de hover funtie wel voorkomen dat het gelijk een warboel wordt en daarom heb ik gekozen om alleen gebruik te maken van de kleuren die zich op dat moment in het kunstwerk bevinden. Ik heb dus alle kleurstalen die origineel in de illustratie gebruikt zijn, onderling verwisselt bij de hover functie. Roze wordt blauw, blauw wordt
+
+Stijl 
+Interactiviteit
+Experiment
+Kennis
 
 
 
