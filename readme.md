@@ -1,6 +1,6 @@
-Minor Visual Interface Design - Web Animatie - Renée Buitendijk - VID2
+**Minor Visual Interface Design - Web Animatie - Renée Buitendijk - VID2**
 
-De opdracht:
+*De opdracht:*
 
 De opdracht voor Web Animatie bestaat uit het vertalen van een statisch kunstwerk naar een interactieve, geanimeerde webversie. 
 Voor deze opdracht zal gebruik worden gemaakt van technische vaardigheden zoals Html, CSS en Javascript. De creativiteit om interessante
@@ -18,18 +18,18 @@ Als Cultureel Erfgoed student die deze minor volgt en nog nooit had gecodeerd wa
 Deze opdracht is dus een mooie combinatie tussen het nieuwe en het bekende. Code is een nieuwe taal die ik geleerd heb met veel hulp van 
 medestudenten en Youtube tutorials.
 
-Het kunstwerk:
+*Het kunstwerk:*
 Na het horen van de opdracht wist ik meteen welk werk ik wilde gebruiken. Een groot deel van mijn studie is Kunstgeschiedenis waar Henri
 Matisse een belangrijke kunstenaar is in de moderne kunstgeschiedenis. Zijn werk 'La perruche et la sirène' (De parkiet en de Zeemeermin') is één van mijn favoriete kunstwerken. Het kleurgebruik inspireert me en het verhaal waarom Matisse het werk heeft gemaakt vind ik interessant. Matisse was een Franse kunstschilder en vooral bekend als grondlegger van het Fauvisme, een kunststroming waar gebruik wordt gemaakt van felle kleuren en contrasten. Aan het einde van zijn leven creëerde hij vooral werken gemaakt met papierknipsels. Met deze techniek werden er eerst vormen geknipt uit papier, die allemaal in dezelfde kleur geschilderd waren. Vervolgens werden deze vormen op een doek geplakt om een bepaald ensemble te creëeren waarna de vormen in verschillende kleuren werden geschilderd. Matisse maaktte dit werk in 1952, 2 jaar voor zijn overlijden. De aanleiding van dit werk was een langdurige herstel periode na een operatie waardoor Matisse thuis zat. Hij raaktte geinspireerd door de natuur waarin hij toen lange tijd verplicht tijd moest doorbrengen. Hij noemde dit werk een kleine tuin waarin hij kon wandelen. Het werk bestaat uit verschillende vormen: granaatappels, bladeren en een geabstraheerde parkiet en meermin. De kracht van dit werk zit in het terug kerend kleurgebruik, de vormen en de ruimtes tussen de elementen die allemaal bewust op hun plek zijn geplaatst. 
 Wat ik zo mooi vind aan dit werk is de persoonlijke interpretatie die mogelijk is. Als ik naar het werk kijk zie ik zeewier en koraal. De parkiet en de zeemeermin herkende ik niet gelijk wat een persoonlijke opvatting van het werk tot stand brengt.  
 Ik heb erg genoten van het werken met dit kunstwerk tijdens deze opdracht!
 
-Werkwijze:
+*Werkwijze:*
 Nadat de keuze van dit kunstwerk goed gekeurd was ben ik gelijk aan de slag gegaan met het illustreren. Door alle verschillende vormen was dit flink wat werk. Ik heb alle vormen zelf geillustreerd in Illustrator en in verschillende lagen opgeslagen. Door de hoeveelheid vormen heb ik ervoor gekozen om alle granaatappels, blauwe-, roze-, groene-, gele- en oranje blaadjes per groep op te slaan en niet alle vormen apart. Voor het animeren zou dit betekenen dat de functies per kleur of vorm zouden gelden en niet voor elke vorm individueel. Het bestand heb ik opgeslagen als SVG die ik vervolgens in de html pagina kon plaatsen. 
 
 De eerste stappen die ik heb genomen bestonden uit het schetsen en bedenken van verschillende functies, het schalen van het werk in de desktop versie en uiteraard het begrijpen van de codes. Dankzij Youtube en veel artikelen snap ik nu redelijk wat van het coderen. Het opstarten en leren heeft me redelijk wat tijd gekost maar na een paar dagen had ik de smaak te pakken en ging ik goed aan de slag. 
 
-Stijl 
+*Stijl:*
 Hetgeen wat ik wil uitstralen en bereiken met de web animatie van dit kunstwerk is het plezier en het belang van kleur. De kleuren die Matisse heeft gebruikt stralen op mij iets ongelofelijk vrolijks doch rustgevigs uit. Dat gevoel van geluk wil ik ook meebrengen aan de 'gebruiker/ bezoeker'. Juist omdat kleur ook zo'n belangrijke rol heeft gespeeld in het leven van Matisse, hij heeft zijn carrière als jurist notabene laten vallen omdat hij gegrepen werd door de kracht van kleur en die kracht wil ik graag overbrengen. 
 Om dit te bereiken wil ik dat de bezoeker over de verschillende vormen kan hoveren wat een kleur verandering in actie brengt. De korte duur van de hover is als een soort verrassings moment, een kiekeboe, er zitten nog meer kleuren verstopt. 
 Ik wilde bij de hover funtie wel voorkomen dat het gelijk een warboel wordt en daarom heb ik gekozen om alleen gebruik te maken van de kleuren die zich op dat moment in het kunstwerk bevinden. Ik heb dus alle kleurstalen die origineel in de illustratie gebruikt zijn, onderling verwisselt bij de hover functie. Roze wordt blauw, blauw wordt geel, geel wordt groen, enzovoorts...
@@ -40,7 +40,7 @@ Onderaan de pagina heb ik een vlak met informatie geplaatst, ik vind het zelf al
 Het werk is responsive en kan op verschillende schermen worden bekeken waar ook interactie kan blijven voorkomen. Ik heb ervoor gekozen om het volledige kunstwerk te roteren bij een maximale schermgrootte van 1020px, op deze manier kan het kunstwerk nog groot worden afgebeeld zodat het niet volledig weg valt. Het roteren geeft een interessant effect en door de simpele vormen wordt het niet als storend ervaren en is er niet de behoefte om de telefoon te draaien zodat het kunstwerk weer horizontaal te zien is. Om die reden heb ik de knoppen wel op dezelfde plaats laten staan, zodat het duidelijk is dat de gebruiker de telefoon correct heeft. 
 Tijdens verschillende test vond ik het opvallend dat de hover functie op het mobiele apparaat van mijn vriend wel werktte (Huawei) en op mijn eigen telefoon (Iphone) niet. Uiteindelijk is dit in de eindversie wel goed gegaan. Dezelfde elementen veranderen wanneer er op de telefoon kort op gedrukt wordt als dat er op de laptop overheen gehovert wordt. 
 
-Interactiviteit
+*Interactiviteit:*
 Voor interactiviteit zijn er een aantal dingen. Voor de desk top is er de hover functie waarbij de elementen kort van kleur veranderen.
 De verschillende knoppen zetten een actie in gang. De knop 'Grenade' spreekt de granaatappels aan, bij het indrukken van de knop verandert de opactity van deze onderdelen van 1 naar 0 met een transitie van 1 seconde. Bij het nogmaals indrukken van de knop springen de granaatappels weer terug in beeld. De knop 'Rose' spreekt alle roze bladeren aan, bij het indrukken van de knop veranderen deze elementen van roze naar blauw met een transitie van 1 seconde, bij een tweede druk op de knop veranderen de bladeren weer naar hun originele kleur. Deze zelfde functie geldt voor de knoppen 'Jaune', die de gele bladeren aanspreekt en in donkergroen veranderd, de knop 'Vert Foncé', die de donker groene bladeren aanspreekt en in oranje veranderd, en de knop 'Orange', die de oranje bladeren aanspreekt en in licht groen veranderd. Voor al deze knoppen heb ik in de html een <div> type=button aangemaakt. In CSS heb ik deze knoppen gestyled, de knoppen op hun positie geplaatst met 'margin', de hover functie met opactity 0.8 ingesteld en door middel van button:nth-of-type allemaal van een eigen kleur voorzien. De functie van de knoppen heb ik in Javascript geregeld. Door middel van querySelector en het toevoegen van een addEventListener heb ik de functies kunnen togglen zodat het terugkeerbaar is bij het nogmaals indrukken van de knop. Hierbij een voorbeeld: 
 var button = document.querySelector('.blue');
@@ -58,8 +58,8 @@ function achtergrondkleur(code) {
   document.bgColor=code;}
 </script>
   
-Experiment
-Kennis
+*Experiment:*
+*Kennis:*
 
 
 
