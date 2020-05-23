@@ -91,3 +91,46 @@ function toggle(event) {
     Zeewier_roze.classList.toggle('bordo');
   }
 }
+// Touchstart
+var roze = document.getElementById("Zeewier_roze");
+roze.addEventListener("touchstart", function () {
+    document.getElementById("Zeewier_roze").style.display = "none";
+});
+
+roze.addEventListener("touchend", function () {
+    document.getElementById("Zeewier_roze").style.display = "inline";
+});
+
+var grun = document.getElementById("Zeewier_blauw");
+grun.addEventListener("touchstart", function () {
+    document.getElementById("Zeewier_blauw").style.display = "none";
+});
+
+grun.addEventListener("touchend", function () {
+    document.getElementById("Zeewier_blauw").style.display = "inline";
+});
+
+var ron = document.getElementById("Zeewier_oranje");
+ron.addEventListener("touchstart", function () {
+    ron.classList.toggle("felpaars");
+  });
+
+var grond =document.getElementById("Zeewier_geel");
+grond.addEventListener("touchstart", function() {
+  grond.classList.toggle("rood");
+});
+
+var cat =document.getElementById("Zeewier_licht_groen");
+cat.addEventListener("touchstart", function() {
+  cat.classList.toggle("lightblauw");
+});
+
+var ap =document.getElementById("Granaatappels");
+ap.addEventListener("touchstart", function() {
+  ap.classList.toggle("felgroen");
+});
+
+var pup =document.getElementById("Zeewier_donker_groen");
+pup.addEventListener("touchstart", function() {
+  pup.classList.toggle("felgeel");
+}); 
