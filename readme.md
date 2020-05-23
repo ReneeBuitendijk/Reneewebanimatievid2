@@ -41,6 +41,12 @@ Het werk is responsive en kan op verschillende schermen worden bekeken waar ook 
 Tijdens verschillende test vond ik het opvallend dat de hover functie op het mobiele apparaat van mijn vriend wel werktte (Huawei) en op mijn eigen telefoon (Iphone) niet. Uiteindelijk is dit in de eindversie wel goed gegaan. Dezelfde elementen veranderen wanneer er op de telefoon kort op gedrukt wordt als dat er op de laptop overheen gehovert wordt. 
 
 *Interactiviteit:*
+Desktop | Mobiel
+------------ | -------------
+Hover | Hover
+Knoppen | Knoppen
+Toetsenbord | Touchstart / Touchend
+
 Voor interactiviteit zijn er een aantal dingen. Voor de desk top is er de hover functie waarbij de elementen kort van kleur veranderen.
 De verschillende knoppen zetten een actie in gang. De knop 'Grenade' spreekt de granaatappels aan, bij het indrukken van de knop verandert de opactity van deze onderdelen van 1 naar 0 met een transitie van 1 seconde. Bij het nogmaals indrukken van de knop springen de granaatappels weer terug in beeld. De knop 'Rose' spreekt alle roze bladeren aan, bij het indrukken van de knop veranderen deze elementen van roze naar blauw met een transitie van 1 seconde, bij een tweede druk op de knop veranderen de bladeren weer naar hun originele kleur. Deze zelfde functie geldt voor de knoppen 'Jaune', die de gele bladeren aanspreekt en in donkergroen veranderd, de knop 'Vert Foncé', die de donker groene bladeren aanspreekt en in oranje veranderd, en de knop 'Orange', die de oranje bladeren aanspreekt en in licht groen veranderd. Voor al deze knoppen heb ik in de html een <div> type=button aangemaakt. In CSS heb ik deze knoppen gestyled, de knoppen op hun positie geplaatst met 'margin', de hover functie met opactity 0.8 ingesteld en door middel van button:nth-of-type allemaal van een eigen kleur voorzien. De functie van de knoppen heb ik in Javascript geregeld. Door middel van querySelector en het toevoegen van een addEventListener heb ik de functies kunnen togglen zodat het terugkeerbaar is bij het nogmaals indrukken van de knop. Hierbij een voorbeeld: 
 var button = document.querySelector('.blue');
@@ -51,14 +57,46 @@ button.addEventListener("click", function() {
 
 Er zijn nog twee knoppen zichtbaar in de webversie waarbij ik geen gebruik heb gemaakt van Javascript. Voor de desbetreffende knoppen heb ik de interactie geregeld in html. Ik wilde graag een functie toevoegen waarbij de volledige achtergrond kleur veranderd kon worden. Na vele mislukte pogingen dit op dezelfde manier te doen zoals hierboven in het voorbeeld staat, heb ik een andere manier geprobeerd. 
 De knop "Type...." heb ik in de <div> buttons de volgende kop gegeven: <button class="ensemble" type="button" name=Klor onclick="JavaScript:achtergrondkleur('#f76dbb');">Type 'henrimatisse' en creëer een ensemble!</button>
-De knop Couleur kreeg een andere kop: <button class="mobiel" type="button" name=Klaar onclick="JavaScript:achtergrondkleur('#f76dbb');">Creëer je eigen ensemble!</button>
+De knop Couleur kreeg een andere kop: <button class="col" type="button" name=Klr onclick="JavaScript:achtergrondkleur('#ffffff');">Couleur</button>
 Vervolgens heb ik het volgende in het html script geplaatst:     
   <script>
 function achtergrondkleur(code) {
   document.bgColor=code;}
 </script>
+ En heb ik de body een bgcolor gegeven: <body bgcolor="#ffffff"> Op deze manier wordt de achtergrond van de volledige html roze bij het indrukken van de knop "type..." en blijft het roze als er nogmaals op deze knop wordt gedrukt aangezien er geen toggle aanwezig is. 
+Bij het indrukken van de knop 'Couleurs' veranderd de volledige achtergrond kleur weer naar wit. 
+Op de desktop versie kunnen toetsen worden ingedrukt die de elementen van kleur laten veranderen. Er kan 'henrimatisse' getypt worden wat de verandering tot stand brengt. De elementen worden in dit geval felle kleuren die niet in het originele kunstwerk aanwezig waren. Zo kan de gebruiker een eigen ensemble creëeren door de kleuren van de toetsen en knoppen te combineren. 
+Deze functie heb ik in Javascript geschreven en ziet er als volgt uit: 
+  var meermin =document.getElementById('Zeemeermin');
+  window.addEventListener('keydown', toggle)
+function toggle(event) {
+  if(event.keyCode === 72) {
+    Zeemeermin.classList.toggle('lightblauw');
+    fillColor()  }
+In dit geval wordt het element Zeemeermin ligtblauw wanneer de H ingedrukt wordt. 
+Voor de desktop zijn hiermee alle interactieve elementen compleet, bestaande uit de hover, de knoppen en de toets functies. 
+De mobiele versie is responsive en wordt gedraaid bij een maximale schermgrootte. In de mobiele versie werken de knoppen hetzelfde alleen is er geen toets functie nodig dus de tekst "Type 'henrimatisse'.." is overbodig. Ik wilde de knop niet volledig weghalen aangezien dan de functie van de achtergrond kleur verloren zou gaan dus heb ik een nieuwe knop toegevoegd in de html met de tekst 'Creëer je eigen ensemble' en dezelfde javascript functie als de knop voor de desktop. Deze knop heb ik in de desktop versie op display: none; gezet en datzelfde heb ik gedaan met de knop "Type" bij de mobiele versie. Op deze manier klopt de tekst op de knop voor beide versies en blijft de functie behouden. 
+Voor de mobiele versie blijven dus de knoppen verder hetzelfde en de hover functie werkt bij een korte klik op het element ook nog op de mobiel. De toetsenbord functie verdwijnt en daar wil ik een vervangende functie voor. Aangezien er bij de desktop versie bij de toets functies nieuwe, felle kleuren worden toegevoegd, koos ik ervoor om dit bij de mobiele versie in de vorm van touchstart events toe te voegen. Deze touch events heb ik in javascript toegevoegd. Bij het aanraken van de blauwe en roze bladeren verdwijnen deze elementen. Dit heb ik als volgt gedaan: 
+var roze = document.getElementById("Zeewier_roze");
+roze.addEventListener("touchstart", function () {
+    document.getElementById("Zeewier_roze").style.display = "none";
+});
+
+roze.addEventListener("touchend", function () {
+    document.getElementById("Zeewier_roze").style.display = "inline";
+});
+
+De rest van de elementen wilde ik van kleur laten veranderen bij een touch.
+var ron = document.getElementById("Zeewier_oranje");
+ron.addEventListener("touchstart", function () {
+    ron.classList.toggle("felpaars");
+  });
+
+Op deze manier hebben de verschillende devices allemaal dezelfde soort functies maar zijn er onderling kleine verschillen waardoor het nog leuk blijft om het zowel op de telefoon als de laptop te bekijken en ermee te spelen. 
   
 *Experiment:*
+Na het coderen van alle verschillende functies en interacties vond ik het werk toch nog vrij statisch aangezien er alleen iets gebeurd wanneer er ergens op gedrukt of geklikt wordt. Ik wilde iets van een constante animatie toe voegen om het hele werk pakkender te maken. 
+Ik heb een aantal experimenten gehad waar ik één granaatappel in een aparte svg had toegevoegd aan de html en die door middel van keyframes probeerde te animeren maar door het overschrijven van de functies in c
 *Kennis:*
 
 
