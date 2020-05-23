@@ -1,0 +1,477 @@
+html {
+width: 100%;
+height: 100%;
+margin-top: 35em;
+}
+
+
+
+#Granaatappels {
+  -webkit-animation: appelin 3s 1s both infinite;
+   animation: appelin 3s 1s both infinite;
+}
+@keyframes appelin {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+#roze_3 {
+  -webkit-animation: op 3s 1s both infinite;
+   animation: op 3s 1s both infinite;
+}
+@keyframes op {
+  0%,
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    -webkit-transform-origin: 10% 10%;
+            transform-origin: 10% 10%;
+  }
+  15% {
+    -webkit-transform: translateY(-30px) rotate(-6deg);
+            transform: translateY(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateY(15px) rotate(6deg);
+            transform: translateY(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateY(-15px) rotate(-3.6deg);
+            transform: translateY(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateY(9px) rotate(2.4deg);
+            transform: translateY(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateY(-6px) rotate(-1.2deg);
+            transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+
+#blauw_13 {
+  -webkit-animation: top 3s 1s both infinite;
+   animation: top 3s 1s both infinite;
+}
+@keyframes top {
+  0%,
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+            -webkit-transform-origin: 10% 10%;
+                    transform-origin: 10% 10%;
+  }
+  15% {
+    -webkit-transform: translateY(-30px) rotate(-6deg);
+            transform: translateY(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateY(15px) rotate(6deg);
+            transform: translateY(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateY(-15px) rotate(-3.6deg);
+            transform: translateY(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateY(9px) rotate(2.4deg);
+            transform: translateY(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateY(-6px) rotate(-1.2deg);
+            transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+#donker_groen_5 {
+  -webkit-animation: flop 3s 1s both infinite;
+   animation: flop 3s 1s both infinite;
+}
+@keyframes flop {
+  0%,
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+            -webkit-transform-origin: 10% 10%;
+                    transform-origin: 10% 10%;
+                  }
+        15% {
+  -webkit-transform: translateY(-15px) rotate(-3deg);
+   transform: translateY(-15px) rotate(-3deg);
+   }
+   30% {
+      -webkit-transform: translateY(15px) rotate(3deg);
+              transform: translateY(15px) rotate(3deg);
+    }
+    45% {
+      -webkit-transform: translateY(-15px) rotate(-3.6deg);
+              transform: translateY(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateY(9px) rotate(2.4deg);
+              transform: translateY(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateY(-6px) rotate(-1.2deg);
+              transform: translateY(-6px) rotate(-1.2deg);
+    }
+  }
+
+#geel_5 {
+  -webkit-animation: rop 3s 1s both infinite;
+   animation: rop 3s 1s both infinite;
+}
+@keyframes rop {
+  0%,
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    -webkit-transform-origin: 20% 20%;
+            transform-origin: 20% 20%;
+  }
+  15% {
+    -webkit-transform: translateY(-30px) rotate(-6deg);
+            transform: translateY(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateY(15px) rotate(6deg);
+            transform: translateY(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateY(-15px) rotate(-3.6deg);
+            transform: translateY(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateY(9px) rotate(2.4deg);
+            transform: translateY(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateY(-6px) rotate(-1.2deg);
+            transform: translateY(-6px) rotate(-1.2deg);
+  }
+}
+
+
+
+.buttons {
+  display: block;
+  margin-left: auto%;
+  margin-right: auto;
+  margin-top: -35em;
+  margin-bottom: -1em;
+  text-align: center;
+  justify-content:space-around;
+}
+
+button {
+  padding: 1em 2em 1em 2em;
+  margin: 2em;
+  margin-left: 4em;
+  border: 0px;
+  color: white;
+  font-size: 16px;
+  font-family: brenner;
+	font-style: normal;
+	font-weight: 750;
+  border-radius: 4em;
+}
+
+button:hover {
+  opacity:0.8;
+  .trans;
+}
+
+/* Grenade */
+button:nth-of-type(1) {
+  background-color: #40407e;
+}
+/* Rose */
+button:nth-of-type(2) {
+  background-color: #e91976;;
+}
+/* Jaune */
+button:nth-of-type(3) {
+  background-color: #f78f04;
+}
+/* Vert */
+button:nth-of-type(4) {
+  background-color: #23522e;
+}
+/* Orange */
+button:nth-of-type(5) {
+  background-color: #f0491e;
+}
+/* Couleur */
+button:nth-of-type(6) {
+  background-color: #670b8c;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Type */
+.ensemble {
+  background-color: #f76dbb;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+
+
+
+/* kleuren non schilderij */
+.rood path {
+  fill:#fc0a2a;
+  transition: all 1s ease;
+}
+
+.lightblauw path  {
+  fill:#0ac4fc;
+  transition: 1s;
+}
+
+.felgroen path {
+  fill:#16ba3a;
+  transition: 1s;
+}
+
+.lichtroze path {
+  fill:#f76dbb;
+  transition: 1s;
+}
+
+.felpaars path {
+  fill:#ba34eb;
+  transition: 1s;
+  }
+
+.felgeel path {
+  fill:#dae332;
+  transition: 1s;
+}
+
+.heelgroen path {
+  fill:#64e332;
+  transition: 1s;
+}
+
+.bordo path {
+  fill:#fc7114;
+  transition: 1s;
+}
+
+.turkois path {
+  fill:#05f0a9;
+  transition: 1s;
+}
+/* kleuren schilderij */
+.blue path {
+  fill:#40407e;
+  transition: 1s;
+}
+
+.pink path {
+  fill:#e91976;
+  transition: 1s;
+}
+
+.yellow path {
+  fill:#f78f04;
+  transition: 1s;
+}
+
+.darkgreen path {
+  fill:#23522e;
+  transition: 1s;
+}
+
+.orange path {
+  fill:#f0491e;
+  transition: 1s;
+}
+
+.lightgreen path{
+  fill:#227b32;
+  transition: 1s;
+}
+
+/* zeemeermin */
+.cls-1 {
+  fill:#312682;
+  }
+
+/* geel */
+.cls-2 {
+  fill: #f78f04;
+}
+/* parkiet */
+.cls-3 {
+  fill: #312682;
+}
+/* lichtgroen */
+.cls-4 {
+  fill:#227b32;
+}
+/* oranje */
+.cls-5 {
+  fill:#f0491e;
+}
+/* donker groen */
+.cls-6 {
+  fill:#23522e;
+}
+/* roze */
+.cls-7 {
+  fill:#e91976;
+}
+/* blauw */
+.cls-8 {
+ fill:#40407e;
+}
+/* appel */
+.cls-9 {
+ fill: #312682;
+}
+
+.cls-1:hover {
+  opacity: 0;
+  transition: 0,5s;
+}
+.cls-2:hover {
+  fill:#227b32;
+}
+/* } geel wordt lichtgroen */
+
+.cls-3:hover {
+  opacity: 0;
+  transition: 0,5s;
+}
+
+.cls-4:hover {
+  fill:#f0491e;
+}
+/* } lichtgroen wordt oranje */
+.cls-5:hover {
+  fill:#23522e;
+}
+/* } oranje wordt donker groen */
+.cls-6:hover {
+  fill:#e91976;
+}
+/* } donker groen wordt roze */
+.cls-7:hover {
+  fill:#40407e;
+}
+/* } roze wordt blauw */
+.cls-8:hover {
+  fill:#f78f04;
+}
+/* blauw wordt geel */
+
+.cls-9:hover {
+  fill:#e91976;
+}
+
+.Schilderij {
+  color:white;
+  padding: 1em 2em 1em 2em;
+  font-family: brenner;
+	font-style: normal;
+	font-weight: 750;
+  font-size: 13px;
+  letter-spacing: -0.01em;
+  margin-bottom: 1em;
+  opacity: 100%;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #40407e;
+  border-radius: 4em;
+}
+
+.Granaatappelsweg {
+  opacity: 0;
+  transition: 1s;
+}
+
+.mobiel {
+  display:none;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1020px)
+{
+  html {
+    /* background-color: #f76dbb; */
+  }
+
+  body {
+    /* background-color: #f76dbb */
+  }
+  .ensemble {
+    display: none;
+  }
+  .col {
+    /* display: none; */
+  }
+
+.mobiel {
+  background-color: #f76dbb;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+  display: inline; 
+}
+
+  .buttons {
+    display: block;
+    margin-left: auto%;
+    margin-right: 9em;
+    margin-top: -34em;
+    margin-bottom: 0em;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 9em;
+  }
+
+  .art {
+  transform: rotate(90deg);
+  margin-top: 35em;
+  width: 130em;
+  margin-left: -35em;
+  }
+
+  .Schilderij {
+    margin-top:45em;
+    margin-bottom: 30em;
+    padding: 3em 2em 3em 2em;
+    margin-left: 8em;
+    margin-right: 8em;
+    background-color: #40407e
+  }
+}
