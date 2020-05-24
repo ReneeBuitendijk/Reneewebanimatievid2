@@ -71,14 +71,14 @@ button.addEventListener("click", function() {
 }); 
 
 Er zijn nog twee knoppen zichtbaar in de webversie waarbij ik geen gebruik heb gemaakt van Javascript. Voor de desbetreffende knoppen heb ik de interactie geregeld in html. Ik wilde graag een functie toevoegen waarbij de volledige achtergrond kleur veranderd kon worden. Na vele mislukte pogingen dit op dezelfde manier te doen zoals hierboven in het voorbeeld staat, heb ik een andere manier geprobeerd. 
-De knop "Type...." heb ik in de <div> buttons de volgende kop gegeven: <button class="ensemble" type="button" name=Klor onclick="JavaScript:achtergrondkleur('#f76dbb');">Type 'henrimatisse' en creëer een ensemble!</button>
-De knop Couleur kreeg een andere kop: <button class="col" type="button" name=Klr onclick="JavaScript:achtergrondkleur('#ffffff');">Couleur</button>
+De knop "Type...." heb ik in de div buttons de volgende kop gegeven: <button class="ensemble" type="button" name=Klor onclick="JavaScript:achtergrondkleur('#f76dbb');">Type 'henrimatisse' en creëer een ensemble!/button
+De knop Couleur kreeg een andere kop: button class="col" type="button" name=Klr onclick="JavaScript:achtergrondkleur('#ffffff');">Couleur/button
 Vervolgens heb ik het volgende in het html script geplaatst:     
   <script>
 function achtergrondkleur(code) {
   document.bgColor=code;}
 </script>
- En heb ik de body een bgcolor gegeven: <body bgcolor="#ffffff"> Op deze manier wordt de achtergrond van de volledige html roze bij het indrukken van de knop "type..." en blijft het roze als er nogmaals op deze knop wordt gedrukt aangezien er geen toggle aanwezig is. 
+ En heb ik de body een bgcolor gegeven: body bgcolor="#ffffff" Op deze manier wordt de achtergrond van de volledige html roze bij het indrukken van de knop "type..." en blijft het roze als er nogmaals op deze knop wordt gedrukt aangezien er geen toggle aanwezig is. 
 Bij het indrukken van de knop 'Couleurs' veranderd de volledige achtergrond kleur weer naar wit. 
 
 Op de desktop versie kunnen toetsen worden ingedrukt die de elementen van kleur laten veranderen. Er kan 'henrimatisse' getypt worden wat de verandering tot stand brengt. De elementen worden in dit geval felle kleuren die niet in het originele kunstwerk aanwezig waren. Zo kan de gebruiker een eigen ensemble creëeren door de kleuren van de toetsen en knoppen te combineren. 
